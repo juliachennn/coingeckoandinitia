@@ -11,6 +11,9 @@ type Resprops = {
       usd: string
     }
   },
+  localization: {
+    en: string
+  }
 }
 
 const useAxios = (param: string) => {

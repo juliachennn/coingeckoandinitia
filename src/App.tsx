@@ -26,14 +26,12 @@ function App() {
         {
           coinList.map((coin) => {
             return (
-              <div className='coinButton' key={coin.id}>
-                <button onClick={() => selectCoin(coin.id)}>{coin.name}</button>
-              </div>
+              <button className='coinButton' key={coin.id} onClick={() => selectCoin(coin.id)}>{coin.name}</button>
             )
           })
         }
       </div>
-      {coinType && <Coin coinType={coinType} />}
+      <Coin coinType={coinType} />
     </div>
   )
 }
