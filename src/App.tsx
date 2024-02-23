@@ -13,6 +13,11 @@ const coinList = [
     symbol: "eth",
     name: "Ethereum",
   },
+  {
+    id: "pixels",
+    symbol: "PIXEL",
+    name: "Pixels",
+  },
 ];
 
 function App() {
